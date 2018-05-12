@@ -26,7 +26,9 @@ wp scaffold plugin <name-of-plugin>
 
 // Lets scaffold a gutenberg block and tie it to our plugin
 
-wp scaffold block <name-of-your-block> --title="<Name of Block>" --plugin=<name-of-your-plugin>
+wp scaffold block <name-of-block> --title="<Name of Block>" --plugin=<name-of-plugin>
+
+wp plugin activate <name-of-plugin>
 
 ```
 
