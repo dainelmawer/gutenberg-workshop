@@ -36,7 +36,13 @@ wp plugin activate <name-of-plugin>
 
 ![A look at the directory structure of our scffolding above](https://cl.ly/0R1A3I063S0s/Image%202018-05-12%20at%209.12.54%20AM.png)
 
-## Licens
+## A Simple Block Tutorial
+Lets create a simple Gutenberg Block to begin. We'll move onto a more complicated one a bit later. 
+Heres what its going to do:
+
+
+
+## License
 GPL 2.0 or later
 
 ## Support my work
