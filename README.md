@@ -1,5 +1,5 @@
 # Gutenberg Block Tutorial
-This repo attempts to provide a run down of building a Gutenberg block in the most efficient way possible, with the least configuration. Many block tutorials require complicated setup and configuration before you even get started which has its pros and cons, of course. In this tutorial, I will get you up and running with a fresh new WP installation, plugin and gutenberg in under 5 minutes.
+This repo attempts to provide a run down of building a Gutenberg block in the most efficient way possible, with the least configuration. Its for developers and engineers who wish to have a no fuss setup for Gutenberg Block development. Many block tutorials require complicated setup and configuration before you even get started which has its pros and cons of course. In this tutorial, I will get you up and running with a fresh new WP installation, a plugin to support your block development, individual blocks and the core Gutenberg plugin in under 3 minutes.
 
 ## Getting Started
 
