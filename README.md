@@ -32,8 +32,11 @@ wp plugin activate <name-of-plugin>
 
 ```
 
+## Directory Structure
 
-## License
+![A look at the directory structure of our scffolding above](https://cl.ly/0R1A3I063S0s/Image%202018-05-12%20at%209.12.54%20AM.png)
+
+## Licens
 GPL 2.0 or later
 
 ## Support my work
