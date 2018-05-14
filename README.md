@@ -10,21 +10,14 @@ This repo attempts to provide a run down of building a Gutenberg block in the mo
 That should take care of the basics. Now we're ready to jump in. Lets get an instance of WordPress going, navigate to your site folder:
 
 ```
-// Bring down a fresh WP installation and set it up
 
 wp core download
 wp config create
 wp core install --url=gutenberg.test --title=Gutenberg --admin_user=administrator --admin_password=iamthematrix --admin_email=hello@gutenberg.test
 
-// Lets take care of Gutenberg
-
 wp plugin install gutenberg --activate
 
-// Lets scaffold a plugin
-
 wp scaffold plugin <name-of-plugin>
-
-// Lets scaffold a gutenberg block and tie it to our plugin
 
 wp scaffold block <name-of-block> --title="<Name of Block>" --plugin=<name-of-plugin>
 
