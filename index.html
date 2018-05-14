@@ -4,13 +4,15 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Gutenberg Workshop</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/white.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="css/custom.css">
+		<link rel="shortcut icon" href="https://10up.com/wp-content/themes/10up-sept2016/assets/img/favicon.ico">
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -24,8 +26,80 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<img class="logo" width="300px" src="img/gutenberg-logo.png">
+					<h4>An Introduction to<br> Gutenberg Development</h4>
+				</section>
+				<section>
+					<img style="border-radius: 50%" width="300px" src="img/daine.jpg">
+					<h4>Hej! Im <a href="https://dainelindleymawer.me">Daine</a></h4>
+					<p>Author, Speaker, Trainer, Digital Nomad</p>
+				</section>
+				<section>
+					<img style="border-radius: 50%" width="300px" src="img/10up-logo.jpg">
+					<h4>Im a Front-end Engineer at <a href="https://10up.com">10up</a></h4>
+				</section>
+
+				<section>
+					<h4>Why Gutenberg?</h4>
+
+					<ul>
+						<li>For the first time ever, developers have the ability to completely revolutionize the WordPress editor using faster technologies like React and Node as compared to their legacy counterparts like jQuery.</li>
+						<li>With the Block API, extensions, integrations and customizations are now possible with a UI-first approach to development.</li>
+						<li>Gutenberg, will eventually take over theme development as a whole. Removing the need for the Customizer in areas like the header and footer and providing a truly “personalized” experience for users.</li>
+						<li>It’s the first peak into the future of WordPress</li>
+					</ul>
+
+				</section>
+
+				<section>
+					<h4>What you need to know</h4>
+					<ul>
+						<li>
+							<strong>React:</strong>
+							The Gutenberg Block API is written on top of the React Framework. An understanding of React Components, Life Cycles and concepts like props is detrimental for block development.
+						</li>
+
+						<li>
+							<strong>PHP:</strong>
+							As blocks require PHP logic to be written in order to tie them to the database, the ability to “rewrite” your block on the server side is important. The API provides some nice ways to integrate, but make sure your PHP skills within the context of WordPress are sharp!
+						</li>
+
+						<li>
+							<strong>Javascript:</strong>
+							A holistic understanding of Javascript is the backbone (no pun intended) of Gutenberg development. Make sure you understand technologies like Babel and Webpack if you plan on writing ES6. ES5 is of course supported.
+						</li>
+
+						<li>
+							<strong>CSS:</strong>
+							New CSS layout modules like Flexbox and CSS Grid will open up a new world of CSS optimization and performance when it comes to Gutenberg.
+						</li>
+
+
+					</ul>
+				</section>
+
+				<section>
+					<h4>Resources</h4>
+					<ul>
+						<li><a href="https://wordpress.org/gutenberg/handbook/block-api/">Gutenberg Block API Handbook</a></li>
+						<li><a href="https://wordpress.org/gutenberg/handbook/blocks/writing-your-first-block-type/">Gutenberg’s Core Team Block Tutorial</a></li>
+						<li><a href="http://gutenberg.news/">Gutenberg News</li>
+						<li><a href="https://github.com/WordPress/gutenberg/issues">Gutenberg on Github</li>
+						<li><a href="https://reactjs.org/">React</li>
+						<li><a href="https://reactforbeginners.com/">Wes Bos’ Courses on React & ES6</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h4>Thank You!</h4>
+					<ul class="inline">
+						<li><a href="https://twitter.com/dainemawer">Twitter</a></li>
+						<li><a href="https://dainelindleymawer.me">Website</a></li>
+						<li><a href="mailto:dainelmawer@gmail.com">Email</a></li>
+					</ul>
+				</section>
+
 			</div>
 		</div>
 

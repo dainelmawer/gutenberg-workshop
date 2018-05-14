@@ -1,0 +1,40 @@
+.reveal section img {
+  border: 0;
+  box-shadow: none;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6, .reveal p, .reveal li {
+  color: #232323;
+}
+
+.reveal a,
+.reveal .progress,
+.reveal .controls button {
+  color: #54cdcd;
+}
+
+.reveal a:hover {
+  color: #36b8b8;
+}
+
+.reveal li {
+  font-size: .7em;
+  margin-bottom: 20px;
+}
+
+.reveal .inline {
+  margin-left: 0;
+}
+
+.reveal .inline li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.reveal .inline li:last-child {
+  margin-right: 0;
+}
+
+.reveal .slide-background {
+  border-top: 5px solid #b73030;
+}
