@@ -13,7 +13,7 @@ That should take care of the basics. Now we're ready to jump in. Lets get an ins
 
 wp core download
 wp config create
-wp core install --url=gutenberg.test --title=Gutenberg --admin_user=administrator --admin_password=iamthematrix --admin_email=hello@gutenberg.test
+wp core install --url=<siteurl> --title=<Site Name> --admin_user=<username> --admin_password=<password> --admin_email=<siteemail>
 
 wp plugin install gutenberg --activate
 
